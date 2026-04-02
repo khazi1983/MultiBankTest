@@ -48,19 +48,12 @@ class StockRepository {
         val request = Request.Builder()
             .url("wss://ws.postman-echo.com/raw")
             .build()
-        val maxReconnectAttempts = 2
-        val reconnectAttempts = AtomicInteger(0)
-        val isShuttingDown = AtomicBoolean(false)
-        val reconnectScheduled = AtomicBoolean(false)
         var currentWebSocket: WebSocket? = null
 
         fun connect() {
-            if (isShuttingDown.get()) return
             currentWebSocket = client.newWebSocket(request, listener = object : WebSocketListener() {
                 override fun onOpen(webSocket: WebSocket, response: Response) {
                     _isConnected.value = true
-                    reconnectAttempts.set(0)
-                    reconnectScheduled.set(false)
                     emitLatest()
                 }
 
@@ -76,27 +69,10 @@ class StockRepository {
 
                 override fun onClosed(webSocket: WebSocket, code: Int, reason: String) {
                     _isConnected.value = false
-                    scheduleReconnect()
-                }
-
-                private fun scheduleReconnect() {
-                    if (isShuttingDown.get()) return
-                    if (!reconnectScheduled.compareAndSet(false, true)) return
-                    val nextAttempt = reconnectAttempts.incrementAndGet()
-                    if (nextAttempt > maxReconnectAttempts) {
-                        reconnectScheduled.set(false)
-                        return
-                    }
-                    launch {
-                        delay(1000L * nextAttempt)
-                        reconnectScheduled.set(false)
-                        connect()
-                    }
                 }
 
                 override fun onFailure(webSocket: WebSocket, t: Throwable, response: Response?) {
                     _isConnected.value = false
-                    scheduleReconnect()
                 }
             })
         }
@@ -111,9 +87,9 @@ class StockRepository {
                 }
                 symbols.forEach { symbol ->
                     val oldQuote = latestQuotes.getValue(symbol)
-                    val delta = random.nextDouble(from = -3.5, until = 3.5)
+                    val delta = random.nextDouble(from = -5.5, until = 5.5)
                     val nextPrice = (oldQuote.price + delta).coerceAtLeast(1.0)
-                    val change = random.nextDouble(from = -2.0, until = 2.0)
+                    val change = (nextPrice-oldQuote.price)
                     val payload = encodePayload(
                         listOf(StockQuote(symbol, nextPrice, change))
                     )
@@ -126,7 +102,6 @@ class StockRepository {
         }
 
         awaitClose {
-            isShuttingDown.set(true)
             _isConnected.value = false
             currentWebSocket?.close(1000, "Closing stream")
         }
