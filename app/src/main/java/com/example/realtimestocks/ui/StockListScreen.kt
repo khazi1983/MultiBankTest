@@ -27,6 +27,9 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.example.realtimestocks.mvi.StockContract
@@ -38,7 +41,8 @@ fun StockListScreen(
     state: StockContract.State,
     onSymbolClick: (String) -> Unit,
     onToggleFeed: () -> Unit,
-    onWebsocketClose:()-> Unit
+    onWebsocketClose:()-> Unit,
+    flashDurationMillis: Long = 1000L
 ) {
     Scaffold(
         topBar = {
@@ -53,6 +57,7 @@ fun StockListScreen(
                 },
                 actions = {
                     TextButton(
+                        modifier = Modifier.testTag("feedToggleButton"),
                         onClick = {
                             if (state.isConnected) onWebsocketClose() else onToggleFeed()
                         }
@@ -90,14 +95,15 @@ fun StockListScreen(
                     var isFlashing by remember(quote.symbol) { mutableStateOf(false) }
                     LaunchedEffect(quote.symbol, quote.change) {
                         isFlashing = true
-                        delay(1000)
+                        delay(flashDurationMillis)
                         isFlashing = false
                     }
 
                     Card(
                         modifier = Modifier
                             .fillMaxWidth()
-                            .clickable { onSymbolClick(quote.symbol) },
+                            .clickable { onSymbolClick(quote.symbol) }
+                            .testTag("stockCard_${quote.symbol}"),
                         colors = CardDefaults.cardColors(
                             containerColor = MaterialTheme.colorScheme.surfaceVariant
                         )
@@ -130,8 +136,8 @@ fun StockListScreen(
                                     normal
                                 }
 
-
-                                val color_change = if (quote.change > 0) green else red
+                                val color_change =
+                                    if (quote.change > 0) green else red
 
                                 val indicator = when {
                                     quote.change > 0 -> "↑"
@@ -142,7 +148,15 @@ fun StockListScreen(
                                 Text(
                                     text = "$${"%.2f".format(quote.price)}",
                                     style = MaterialTheme.typography.titleMedium,
-                                    color=color
+                                    color=color,
+                                    modifier = Modifier.semantics {
+                                        val flashColor = when {
+                                            quote.change > 0 -> "green"
+                                            quote.change <= 0 -> "red"
+                                            else -> "normal"
+                                        }
+                                        contentDescription = "flash-${quote.symbol}-$flashColor"
+                                    }
                                 )
                                 Text(
                                     text = "$indicator ${if (quote.change >= 0) "+" else ""}${"%.2f".format(quote.change)}%",
