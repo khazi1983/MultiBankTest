@@ -34,6 +34,9 @@ fun StockNavHost(
                 },
                 onToggleFeed = {
                     stockViewModel.onIntent(StockContract.Intent.ToggleFeed)
+                },
+                onWebsocketClose={
+                    stockViewModel.onIntent(StockContract.Intent.WebsocketClose)
                 }
             )
         }

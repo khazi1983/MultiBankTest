@@ -32,9 +32,16 @@ class StockViewModel(
             }
 
             StockContract.Intent.ToggleFeed -> {
-                val nextRunning = !_state.value.isFeedRunning
-                repository.setFeedRunning(nextRunning)
-                _state.update { it.copy(isFeedRunning = nextRunning) }
+                // UI calls this only from the "Start" button (when we are disconnected).
+                repository.setFeedRunning(true)
+                _state.update { it.copy(isFeedRunning = true) }
+            }
+
+            StockContract.Intent.WebsocketClose -> {
+                // Internal event: WebSocket disconnected.
+                repository.setFeedRunning(false)
+                repository.closeWebSocket("WebSocketFeedClosed")
+                _state.update { it.copy(isConnected = false, isFeedRunning = false) }
             }
         }
     }

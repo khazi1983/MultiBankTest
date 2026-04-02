@@ -17,8 +17,6 @@ import okhttp3.Request
 import okhttp3.Response
 import okhttp3.WebSocket
 import okhttp3.WebSocketListener
-import java.util.concurrent.atomic.AtomicBoolean
-import java.util.concurrent.atomic.AtomicInteger
 import kotlin.random.Random
 
 class StockRepository {
@@ -26,11 +24,18 @@ class StockRepository {
     private val _isConnected = MutableStateFlow(false)
     val isConnected: StateFlow<Boolean> = _isConnected.asStateFlow()
     private val _isFeedRunning = MutableStateFlow(true)
+    @Volatile
+    var currentWebSocket: WebSocket? = null
 
     fun setFeedRunning(isRunning: Boolean) {
         _isFeedRunning.value = isRunning
     }
-
+    fun closeWebSocket(reason: String = "WebSocket closed") {
+        _isConnected.value = false
+        val ws = currentWebSocket
+        currentWebSocket = null
+        ws?.close(1000, reason)
+    }
     fun streamQuotes(symbols: List<String>): Flow<List<StockQuote>> = callbackFlow {
         val random = Random(System.currentTimeMillis())
         val latestQuotes = symbols.associateWith {
@@ -48,19 +53,12 @@ class StockRepository {
         val request = Request.Builder()
             .url("wss://ws.postman-echo.com/raw")
             .build()
-        val maxReconnectAttempts = 2
-        val reconnectAttempts = AtomicInteger(0)
-        val isShuttingDown = AtomicBoolean(false)
-        val reconnectScheduled = AtomicBoolean(false)
-        var currentWebSocket: WebSocket? = null
 
-        fun connect() {
-            if (isShuttingDown.get()) return
+        fun connectIfNeeded() {
+            if (currentWebSocket != null) return
             currentWebSocket = client.newWebSocket(request, listener = object : WebSocketListener() {
                 override fun onOpen(webSocket: WebSocket, response: Response) {
                     _isConnected.value = true
-                    reconnectAttempts.set(0)
-                    reconnectScheduled.set(false)
                     emitLatest()
                 }
 
@@ -76,49 +74,49 @@ class StockRepository {
 
                 override fun onClosed(webSocket: WebSocket, code: Int, reason: String) {
                     _isConnected.value = false
-                    scheduleReconnect()
-                }
-
-                private fun scheduleReconnect() {
-                    if (isShuttingDown.get()) return
-                    if (!reconnectScheduled.compareAndSet(false, true)) return
-                    val nextAttempt = reconnectAttempts.incrementAndGet()
-                    if (nextAttempt > maxReconnectAttempts) {
-                        reconnectScheduled.set(false)
-                        return
-                    }
-                    launch {
-                        delay(1000L * nextAttempt)
-                        reconnectScheduled.set(false)
-                        connect()
-                    }
+                    if (currentWebSocket == webSocket) currentWebSocket = null
                 }
 
                 override fun onFailure(webSocket: WebSocket, t: Throwable, response: Response?) {
                     _isConnected.value = false
-                    scheduleReconnect()
+                    if (currentWebSocket == webSocket) currentWebSocket = null
                 }
             })
         }
 
-        connect()
+        fun disconnect(reason: String) {
+            // Ensure the send loop and reconnect logic see the socket as "gone".
+            val ws = currentWebSocket
+            currentWebSocket = null
+            _isConnected.value = false
+            ws?.close(1000, reason)
+        }
+
+        val connectionJob = launch {
+            // Start/stop WebSocket based on the latest feedRunning value.
+            _isFeedRunning.collect { running ->
+                if (running) connectIfNeeded() else disconnect("WebSocketFeedStopped")
+            }
+        }
 
         launch {
             while (isActive) {
-                if (!_isFeedRunning.value) {
-                    delay(200L)
-                    continue
-                }
-                symbols.forEach { symbol ->
-                    val oldQuote = latestQuotes.getValue(symbol)
-                    val delta = random.nextDouble(from = -3.5, until = 3.5)
-                    val nextPrice = (oldQuote.price + delta).coerceAtLeast(1.0)
-                    val change = random.nextDouble(from = -2.0, until = 2.0)
-                    val payload = encodePayload(
-                        listOf(StockQuote(symbol, nextPrice, change))
-                    )
-                    withContext(Dispatchers.IO) {
-                        currentWebSocket?.send(payload)
+                if (_isFeedRunning.value) {
+                    // Only send while the socket is alive.
+                    val ws = currentWebSocket
+                    if (ws != null) {
+                        symbols.forEach { symbol ->
+                            val oldQuote = latestQuotes.getValue(symbol)
+                            val delta = random.nextDouble(from = -5.5, until = 5.5)
+                            val nextPrice = (oldQuote.price + delta).coerceAtLeast(1.0)
+                            val change = (nextPrice - oldQuote.price)
+                            val payload = encodePayload(
+                                listOf(StockQuote(symbol, nextPrice, change))
+                            )
+                            withContext(Dispatchers.IO) {
+                                ws.send(payload)
+                            }
+                        }
                     }
                 }
                 delay(2000L)
@@ -126,9 +124,8 @@ class StockRepository {
         }
 
         awaitClose {
-            isShuttingDown.set(true)
-            _isConnected.value = false
-            currentWebSocket?.close(1000, "Closing stream")
+            connectionJob.cancel()
+            disconnect("Closing stream")
         }
     }
 
@@ -150,4 +147,6 @@ class StockRepository {
                 StockQuote(symbol = symbol, price = price, change = change)
             }
     }
+
+
 }
