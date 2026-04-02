@@ -31,7 +31,8 @@ import com.example.realtimestocks.mvi.StockContract
 fun StockListScreen(
     state: StockContract.State,
     onSymbolClick: (String) -> Unit,
-    onToggleFeed: () -> Unit
+    onToggleFeed: () -> Unit,
+    onWebsocketClose:()-> Unit
 ) {
     Scaffold(
         topBar = {
@@ -41,12 +42,15 @@ fun StockListScreen(
                         verticalAlignment = Alignment.CenterVertically,
                         horizontalArrangement = Arrangement.spacedBy(8.dp)
                     ) {
-                        Text("Realtime Stocks")
                         Text(if (state.isConnected) "🟢 connected" else "🔴 disconnected")
                     }
                 },
                 actions = {
-                    TextButton(onClick = onToggleFeed) {
+                    TextButton(
+                        onClick = {
+                            if (state.isFeedRunning) onWebsocketClose() else onToggleFeed()
+                        }
+                    ) {
                         Text(if (state.isFeedRunning) "Stop" else "Start")
                     }
                 }
@@ -68,10 +72,10 @@ fun StockListScreen(
                 )
             }
         } else {
+
             LazyColumn(
                 modifier = Modifier
                     .fillMaxSize()
-                    .padding(padding)
                     .padding(horizontal = 16.dp, vertical = 8.dp),
                 verticalArrangement = Arrangement.spacedBy(10.dp)
             ) {
@@ -128,6 +132,6 @@ fun StockListScreen(
                     }
                 }
             }
+            }
         }
     }
-}

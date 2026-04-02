@@ -19,5 +19,7 @@ object StockContract {
         data class SelectSymbol(val symbol: String) : Intent
         data object ClearSelection : Intent
         data object ToggleFeed : Intent
+
+        data object WebsocketClose: Intent
     }
 }
