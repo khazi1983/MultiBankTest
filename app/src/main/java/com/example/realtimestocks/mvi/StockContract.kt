@@ -7,7 +7,8 @@ object StockContract {
         val isLoading: Boolean = true,
         val isConnected: Boolean = false,
         val isFeedRunning: Boolean = true,
-        val symbols: List<String> = listOf("NVDA", "AAPL", "GOOG", "MSFT", "AMZN"),
+        val symbols: List<String> = listOf("NVDA", "AAPL", "GOOG", "MSFT", "AMZN","TATA","INFY","SMI",
+        "ABB","DLF","CAT","MAN","CCL","TP","GLP","ABT","DLR","LIL","ADAR","EMAR","YGL","PAN","TAQ","ING","HAN"),
         val quotes: List<StockQuote> = emptyList(),
         val selectedSymbol: String? = null
     ) {
