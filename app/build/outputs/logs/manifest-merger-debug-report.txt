@@ -1,0 +1,331 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/shehnajsultana/Desktop/multibanktest/MultiBankTest/app/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /Users/shehnajsultana/Desktop/multibanktest/MultiBankTest/app/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /Users/shehnajsultana/Desktop/multibanktest/MultiBankTest/app/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /Users/shehnajsultana/Desktop/multibanktest/MultiBankTest/app/src/main/AndroidManifest.xml:2:1-20:12
+MERGED from [androidx.navigation:navigation-common:2.8.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/c152ce7afe57c60d26a832e754970d9a/transformed/navigation-common-2.8.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.8.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/f7f045a6bd046d0d0427cf0c5d9148a5/transformed/navigation-runtime-2.8.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/0f1e312b5868c05c56b6a0012504254c/transformed/navigation-common-ktx-2.8.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/c8e1f748e599e90d2f757e14b8c4301d/transformed/navigation-runtime-ktx-2.8.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.8.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/71e459d2ff8c30daddc9a32053f11fdb/transformed/navigation-compose-2.8.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material3:material3-android:1.3.0] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/60b0fdf814a964fcbd9726cdbd89fc0e/transformed/material3-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/56f19996296c8c46399ad52ced2d6520/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-android:1.7.0] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/9b0db0ad553b9d0ffac737716240ccfb/transformed/material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/52d9c9a2bcc0e3dd120eafe77a9b4a9b/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/4348768e2ea05b60e157e9a150237590/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/4a13a7324f93d45fc4a06304db4fdd5c/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/c9fdcfeaf6e20ea55a892aaddbf7626d/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/b1d17954ee41b53a56f9523cae674619/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/e4ba6071f5984cadfa88a486a52c54e1/transformed/animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/bebac81d1336a4d086871499937ab0d7/transformed/ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/04062bf09667693bcad3c4af711b3668/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/7f689bf39fdca1681aaf77ec95a3d230/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/3571d67b9126d7858e2b1cac17463857/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/b44d752a62325d9b229f7cbe72a006e7/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-util-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/f584af47b3c9816fadfc787d22ee87a3/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/6af21df66102e1bd0d7c1ba228d06592/transformed/ui-test-manifest-1.7.2/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.ui:ui-text-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/80b895a1fecfdab073e341e2352f6d19/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/3a0a365c796cb0f2395ee41f41a010bd/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/5e607080a6d2128ffe576a3d981f4038/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.6] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/083e80de9de189fe7a24e7a7265f6d25/transformed/lifecycle-livedata-core-2.8.6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.6] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/f1a3704403bc7560458bf3df53b335f0/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.6] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/6ab95861388a0570720f49a265f1b536/transformed/lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.6] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/cfb82feef6b02d61c2f6aec6308a2dc1/transformed/lifecycle-viewmodel-savedstate-2.8.6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/cfa2fbd4d8f9e3da9f3632da145ceced/transformed/lifecycle-viewmodel-ktx-2.8.6/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.6] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/eecef41bc3971ddfa039fcae9f705ec1/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.6] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/39dd9d38b9260c6d2e519142ed53df02/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.6] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/4b3e02812e5ea4488fdf099dccb9aaf1/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.0] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/50d7551b586a974c505edccbc43cf326/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/1f6a146f9d90ca37b27ba552abc982e1/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/4192e0812ad7edc307d3e6698d10d275/transformed/ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.activity:activity-compose:1.9.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/be7cad224fecd564ad1e40c0b63590b5/transformed/activity-compose-1.9.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.9.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/641cb53bf5fb090c2979def83666f724/transformed/activity-ktx-1.9.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.9.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/76a24d616d493c62fac0397c1a61952f/transformed/activity-1.9.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/678140ecc30fc6a7513b7434ef899b1e/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/9580b8f6e8eaf26b7a8a09a05533f23d/transformed/graphics-path-1.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.13.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/a8479db2f0c6226588883c4b09558ae0/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/3089daf9a0ca8b514bebca9f2496eff4/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/c8bb6859f6b6ecd64734b77bde8533ad/transformed/core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/8ef1351b8673ad21044c301223a65f8b/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/16a0d84427d38fdf524b9637075fcab9/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/a2a622d92f44339c74cb16b1ff022896/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/2ec8649baabbad82b25039bdca5988ce/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/f4f239d19b984be6cdba705365025972/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/d5d464458a7f6aeba2e28909592a7a4f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/a9e883a86b953f7cccc0dae74d72cb18/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/8a3f310db0952c810807f5426440eaa9/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/55fcb720f1f4e98d918161bfea6f4ed1/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from /Users/shehnajsultana/Desktop/multibanktest/MultiBankTest/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/shehnajsultana/Desktop/multibanktest/MultiBankTest/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/shehnajsultana/Desktop/multibanktest/MultiBankTest/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/shehnajsultana/Desktop/multibanktest/MultiBankTest/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/shehnajsultana/Desktop/multibanktest/MultiBankTest/app/src/main/AndroidManifest.xml:3:5-67
+	android:name
+		ADDED from /Users/shehnajsultana/Desktop/multibanktest/MultiBankTest/app/src/main/AndroidManifest.xml:3:22-64
+application
+ADDED from /Users/shehnajsultana/Desktop/multibanktest/MultiBankTest/app/src/main/AndroidManifest.xml:5:5-18:19
+INJECTED from /Users/shehnajsultana/Desktop/multibanktest/MultiBankTest/app/src/main/AndroidManifest.xml:5:5-18:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/6af21df66102e1bd0d7c1ba228d06592/transformed/ui-test-manifest-1.7.2/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/6af21df66102e1bd0d7c1ba228d06592/transformed/ui-test-manifest-1.7.2/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/3a0a365c796cb0f2395ee41f41a010bd/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/3a0a365c796cb0f2395ee41f41a010bd/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/5e607080a6d2128ffe576a3d981f4038/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/5e607080a6d2128ffe576a3d981f4038/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/4192e0812ad7edc307d3e6698d10d275/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/4192e0812ad7edc307d3e6698d10d275/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.13.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/a8479db2f0c6226588883c4b09558ae0/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/a8479db2f0c6226588883c4b09558ae0/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/2ec8649baabbad82b25039bdca5988ce/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/2ec8649baabbad82b25039bdca5988ce/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/d5d464458a7f6aeba2e28909592a7a4f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/d5d464458a7f6aeba2e28909592a7a4f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/a9e883a86b953f7cccc0dae74d72cb18/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/a9e883a86b953f7cccc0dae74d72cb18/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /Users/shehnajsultana/Desktop/multibanktest/MultiBankTest/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/a8479db2f0c6226588883c4b09558ae0/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/shehnajsultana/Desktop/multibanktest/MultiBankTest/app/src/main/AndroidManifest.xml:8:9-35
+	android:label
+		ADDED from /Users/shehnajsultana/Desktop/multibanktest/MultiBankTest/app/src/main/AndroidManifest.xml:7:9-40
+	android:allowBackup
+		ADDED from /Users/shehnajsultana/Desktop/multibanktest/MultiBankTest/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/shehnajsultana/Desktop/multibanktest/MultiBankTest/app/src/main/AndroidManifest.xml:9:9-52
+activity#com.example.realtimestocks.MainActivity
+ADDED from /Users/shehnajsultana/Desktop/multibanktest/MultiBankTest/app/src/main/AndroidManifest.xml:10:9-17:20
+	android:exported
+		ADDED from /Users/shehnajsultana/Desktop/multibanktest/MultiBankTest/app/src/main/AndroidManifest.xml:12:13-36
+	android:name
+		ADDED from /Users/shehnajsultana/Desktop/multibanktest/MultiBankTest/app/src/main/AndroidManifest.xml:11:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/shehnajsultana/Desktop/multibanktest/MultiBankTest/app/src/main/AndroidManifest.xml:13:13-16:29
+action#android.intent.action.MAIN
+ADDED from /Users/shehnajsultana/Desktop/multibanktest/MultiBankTest/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/shehnajsultana/Desktop/multibanktest/MultiBankTest/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/shehnajsultana/Desktop/multibanktest/MultiBankTest/app/src/main/AndroidManifest.xml:15:17-77
+	android:name
+		ADDED from /Users/shehnajsultana/Desktop/multibanktest/MultiBankTest/app/src/main/AndroidManifest.xml:15:27-74
+uses-sdk
+INJECTED from /Users/shehnajsultana/Desktop/multibanktest/MultiBankTest/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/shehnajsultana/Desktop/multibanktest/MultiBankTest/app/src/main/AndroidManifest.xml
+INJECTED from /Users/shehnajsultana/Desktop/multibanktest/MultiBankTest/app/src/main/AndroidManifest.xml
+MERGED from [androidx.navigation:navigation-common:2.8.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/c152ce7afe57c60d26a832e754970d9a/transformed/navigation-common-2.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/c152ce7afe57c60d26a832e754970d9a/transformed/navigation-common-2.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/f7f045a6bd046d0d0427cf0c5d9148a5/transformed/navigation-runtime-2.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/f7f045a6bd046d0d0427cf0c5d9148a5/transformed/navigation-runtime-2.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/0f1e312b5868c05c56b6a0012504254c/transformed/navigation-common-ktx-2.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/0f1e312b5868c05c56b6a0012504254c/transformed/navigation-common-ktx-2.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/c8e1f748e599e90d2f757e14b8c4301d/transformed/navigation-runtime-ktx-2.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/c8e1f748e599e90d2f757e14b8c4301d/transformed/navigation-runtime-ktx-2.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.8.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/71e459d2ff8c30daddc9a32053f11fdb/transformed/navigation-compose-2.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.8.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/71e459d2ff8c30daddc9a32053f11fdb/transformed/navigation-compose-2.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.0] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/60b0fdf814a964fcbd9726cdbd89fc0e/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.0] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/60b0fdf814a964fcbd9726cdbd89fc0e/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/56f19996296c8c46399ad52ced2d6520/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/56f19996296c8c46399ad52ced2d6520/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.7.0] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/9b0db0ad553b9d0ffac737716240ccfb/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.7.0] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/9b0db0ad553b9d0ffac737716240ccfb/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/52d9c9a2bcc0e3dd120eafe77a9b4a9b/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/52d9c9a2bcc0e3dd120eafe77a9b4a9b/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/4348768e2ea05b60e157e9a150237590/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/4348768e2ea05b60e157e9a150237590/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/4a13a7324f93d45fc4a06304db4fdd5c/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/4a13a7324f93d45fc4a06304db4fdd5c/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/c9fdcfeaf6e20ea55a892aaddbf7626d/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/c9fdcfeaf6e20ea55a892aaddbf7626d/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/b1d17954ee41b53a56f9523cae674619/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/b1d17954ee41b53a56f9523cae674619/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/e4ba6071f5984cadfa88a486a52c54e1/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/e4ba6071f5984cadfa88a486a52c54e1/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/bebac81d1336a4d086871499937ab0d7/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/bebac81d1336a4d086871499937ab0d7/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/04062bf09667693bcad3c4af711b3668/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/04062bf09667693bcad3c4af711b3668/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/7f689bf39fdca1681aaf77ec95a3d230/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/7f689bf39fdca1681aaf77ec95a3d230/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/3571d67b9126d7858e2b1cac17463857/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/3571d67b9126d7858e2b1cac17463857/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/b44d752a62325d9b229f7cbe72a006e7/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/b44d752a62325d9b229f7cbe72a006e7/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/f584af47b3c9816fadfc787d22ee87a3/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/f584af47b3c9816fadfc787d22ee87a3/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/6af21df66102e1bd0d7c1ba228d06592/transformed/ui-test-manifest-1.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/6af21df66102e1bd0d7c1ba228d06592/transformed/ui-test-manifest-1.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/80b895a1fecfdab073e341e2352f6d19/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/80b895a1fecfdab073e341e2352f6d19/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/3a0a365c796cb0f2395ee41f41a010bd/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/3a0a365c796cb0f2395ee41f41a010bd/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/5e607080a6d2128ffe576a3d981f4038/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/5e607080a6d2128ffe576a3d981f4038/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.6] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/083e80de9de189fe7a24e7a7265f6d25/transformed/lifecycle-livedata-core-2.8.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.6] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/083e80de9de189fe7a24e7a7265f6d25/transformed/lifecycle-livedata-core-2.8.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.6] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/f1a3704403bc7560458bf3df53b335f0/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.6] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/f1a3704403bc7560458bf3df53b335f0/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.6] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/6ab95861388a0570720f49a265f1b536/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.6] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/6ab95861388a0570720f49a265f1b536/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.6] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/cfb82feef6b02d61c2f6aec6308a2dc1/transformed/lifecycle-viewmodel-savedstate-2.8.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.6] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/cfb82feef6b02d61c2f6aec6308a2dc1/transformed/lifecycle-viewmodel-savedstate-2.8.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/cfa2fbd4d8f9e3da9f3632da145ceced/transformed/lifecycle-viewmodel-ktx-2.8.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/cfa2fbd4d8f9e3da9f3632da145ceced/transformed/lifecycle-viewmodel-ktx-2.8.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.6] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/eecef41bc3971ddfa039fcae9f705ec1/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.6] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/eecef41bc3971ddfa039fcae9f705ec1/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.6] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/39dd9d38b9260c6d2e519142ed53df02/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.6] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/39dd9d38b9260c6d2e519142ed53df02/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.6] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/4b3e02812e5ea4488fdf099dccb9aaf1/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.6] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/4b3e02812e5ea4488fdf099dccb9aaf1/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.0] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/50d7551b586a974c505edccbc43cf326/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.0] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/50d7551b586a974c505edccbc43cf326/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/1f6a146f9d90ca37b27ba552abc982e1/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/1f6a146f9d90ca37b27ba552abc982e1/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/4192e0812ad7edc307d3e6698d10d275/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/4192e0812ad7edc307d3e6698d10d275/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.9.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/be7cad224fecd564ad1e40c0b63590b5/transformed/activity-compose-1.9.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/be7cad224fecd564ad1e40c0b63590b5/transformed/activity-compose-1.9.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/641cb53bf5fb090c2979def83666f724/transformed/activity-ktx-1.9.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/641cb53bf5fb090c2979def83666f724/transformed/activity-ktx-1.9.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.9.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/76a24d616d493c62fac0397c1a61952f/transformed/activity-1.9.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/76a24d616d493c62fac0397c1a61952f/transformed/activity-1.9.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/678140ecc30fc6a7513b7434ef899b1e/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/678140ecc30fc6a7513b7434ef899b1e/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/9580b8f6e8eaf26b7a8a09a05533f23d/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/9580b8f6e8eaf26b7a8a09a05533f23d/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/a8479db2f0c6226588883c4b09558ae0/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/a8479db2f0c6226588883c4b09558ae0/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/3089daf9a0ca8b514bebca9f2496eff4/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/3089daf9a0ca8b514bebca9f2496eff4/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/c8bb6859f6b6ecd64734b77bde8533ad/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/c8bb6859f6b6ecd64734b77bde8533ad/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/8ef1351b8673ad21044c301223a65f8b/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/8ef1351b8673ad21044c301223a65f8b/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/16a0d84427d38fdf524b9637075fcab9/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/16a0d84427d38fdf524b9637075fcab9/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/a2a622d92f44339c74cb16b1ff022896/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/a2a622d92f44339c74cb16b1ff022896/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/2ec8649baabbad82b25039bdca5988ce/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/2ec8649baabbad82b25039bdca5988ce/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/f4f239d19b984be6cdba705365025972/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/f4f239d19b984be6cdba705365025972/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/d5d464458a7f6aeba2e28909592a7a4f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/d5d464458a7f6aeba2e28909592a7a4f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/a9e883a86b953f7cccc0dae74d72cb18/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/a9e883a86b953f7cccc0dae74d72cb18/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/8a3f310db0952c810807f5426440eaa9/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/8a3f310db0952c810807f5426440eaa9/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/55fcb720f1f4e98d918161bfea6f4ed1/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/55fcb720f1f4e98d918161bfea6f4ed1/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /Users/shehnajsultana/Desktop/multibanktest/MultiBankTest/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/shehnajsultana/Desktop/multibanktest/MultiBankTest/app/src/main/AndroidManifest.xml
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/6af21df66102e1bd0d7c1ba228d06592/transformed/ui-test-manifest-1.7.2/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/6af21df66102e1bd0d7c1ba228d06592/transformed/ui-test-manifest-1.7.2/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/6af21df66102e1bd0d7c1ba228d06592/transformed/ui-test-manifest-1.7.2/AndroidManifest.xml:24:13-63
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/3a0a365c796cb0f2395ee41f41a010bd/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/5e607080a6d2128ffe576a3d981f4038/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/5e607080a6d2128ffe576a3d981f4038/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/d5d464458a7f6aeba2e28909592a7a4f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/d5d464458a7f6aeba2e28909592a7a4f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/a9e883a86b953f7cccc0dae74d72cb18/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/a9e883a86b953f7cccc0dae74d72cb18/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/3a0a365c796cb0f2395ee41f41a010bd/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/3a0a365c796cb0f2395ee41f41a010bd/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/3a0a365c796cb0f2395ee41f41a010bd/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/3a0a365c796cb0f2395ee41f41a010bd/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/3a0a365c796cb0f2395ee41f41a010bd/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/3a0a365c796cb0f2395ee41f41a010bd/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/3a0a365c796cb0f2395ee41f41a010bd/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/5e607080a6d2128ffe576a3d981f4038/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/5e607080a6d2128ffe576a3d981f4038/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/5e607080a6d2128ffe576a3d981f4038/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:30:17-78
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/4192e0812ad7edc307d3e6698d10d275/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/4192e0812ad7edc307d3e6698d10d275/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.2] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/4192e0812ad7edc307d3e6698d10d275/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/a8479db2f0c6226588883c4b09558ae0/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/a8479db2f0c6226588883c4b09558ae0/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/a8479db2f0c6226588883c4b09558ae0/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#com.example.realtimestocks.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/a8479db2f0c6226588883c4b09558ae0/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/a8479db2f0c6226588883c4b09558ae0/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/a8479db2f0c6226588883c4b09558ae0/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/a8479db2f0c6226588883c4b09558ae0/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/a8479db2f0c6226588883c4b09558ae0/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#com.example.realtimestocks.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/a8479db2f0c6226588883c4b09558ae0/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/a8479db2f0c6226588883c4b09558ae0/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/d5d464458a7f6aeba2e28909592a7a4f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/d5d464458a7f6aeba2e28909592a7a4f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/d5d464458a7f6aeba2e28909592a7a4f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/d5d464458a7f6aeba2e28909592a7a4f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/d5d464458a7f6aeba2e28909592a7a4f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/d5d464458a7f6aeba2e28909592a7a4f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/d5d464458a7f6aeba2e28909592a7a4f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/d5d464458a7f6aeba2e28909592a7a4f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/d5d464458a7f6aeba2e28909592a7a4f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/d5d464458a7f6aeba2e28909592a7a4f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/d5d464458a7f6aeba2e28909592a7a4f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/d5d464458a7f6aeba2e28909592a7a4f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/d5d464458a7f6aeba2e28909592a7a4f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/d5d464458a7f6aeba2e28909592a7a4f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/d5d464458a7f6aeba2e28909592a7a4f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/d5d464458a7f6aeba2e28909592a7a4f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/d5d464458a7f6aeba2e28909592a7a4f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/d5d464458a7f6aeba2e28909592a7a4f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/d5d464458a7f6aeba2e28909592a7a4f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/d5d464458a7f6aeba2e28909592a7a4f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/shehnajsultana/.gradle/caches/9.0-milestone-1/transforms/d5d464458a7f6aeba2e28909592a7a4f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
