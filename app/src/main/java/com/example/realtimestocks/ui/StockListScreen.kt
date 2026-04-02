@@ -19,12 +19,18 @@ import androidx.compose.material3.TextButton
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.example.realtimestocks.mvi.StockContract
+import kotlinx.coroutines.delay
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -48,10 +54,10 @@ fun StockListScreen(
                 actions = {
                     TextButton(
                         onClick = {
-                            if (state.isFeedRunning) onWebsocketClose() else onToggleFeed()
+                            if (state.isConnected) onWebsocketClose() else onToggleFeed()
                         }
                     ) {
-                        Text(if (state.isFeedRunning) "Stop" else "Start")
+                        Text(if (state.isConnected) "Stop" else "Start")
                     }
                 }
             )
@@ -80,6 +86,14 @@ fun StockListScreen(
                 verticalArrangement = Arrangement.spacedBy(10.dp)
             ) {
                 items(state.quotes, key = { it.symbol }) { quote ->
+                    val isPositive = quote.change > 0
+                    var isFlashing by remember(quote.symbol) { mutableStateOf(false) }
+                    LaunchedEffect(quote.symbol, quote.change) {
+                        isFlashing = true
+                        delay(1000)
+                        isFlashing = false
+                    }
+
                     Card(
                         modifier = Modifier
                             .fillMaxWidth()
@@ -106,25 +120,33 @@ fun StockListScreen(
                                 )
                             }
                             Column(horizontalAlignment = Alignment.End) {
-                                Text(
-                                    text = "$${"%.2f".format(quote.price)}",
-                                    style = MaterialTheme.typography.titleMedium
-                                )
-                                val isUp = quote.change > 0
-                                val isDown = quote.change < 0
-                                val color = when {
-                                    isUp -> Color(0xFF2E7D32)
-                                    isDown -> Color(0xFFC62828)
-                                    else -> MaterialTheme.colorScheme.onSurfaceVariant
+                                val green = Color(0xFF2E7D32)
+                                val red = Color(0xFFC62828)
+                                val normal = Color.Black
+
+                                val color = if (isFlashing) {
+                                    if (quote.change > 0) green else red
+                                } else {
+                                    normal
                                 }
+
+
+                                val color_change = if (quote.change > 0) green else red
+
                                 val indicator = when {
-                                    isUp -> "↑"
-                                    isDown -> "↓"
+                                    quote.change > 0 -> "↑"
+                                    quote.change < 0 -> "↓"
                                     else -> "•"
                                 }
+
+                                Text(
+                                    text = "$${"%.2f".format(quote.price)}",
+                                    style = MaterialTheme.typography.titleMedium,
+                                    color=color
+                                )
                                 Text(
                                     text = "$indicator ${if (quote.change >= 0) "+" else ""}${"%.2f".format(quote.change)}%",
-                                    color = color,
+                                    color = color_change,
                                     style = MaterialTheme.typography.bodyMedium
                                 )
                             }

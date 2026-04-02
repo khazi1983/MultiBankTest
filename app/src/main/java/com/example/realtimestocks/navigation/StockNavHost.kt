@@ -23,9 +23,9 @@ fun StockNavHost(
 
     NavHost(
         navController = navController,
-        startDestination = StockRoutes.LIST
+        startDestination = StockRoutes.FEED
     ) {
-        composable(StockRoutes.LIST) {
+        composable(StockRoutes.FEED) {
             StockListScreen(
                 state = state,
                 onSymbolClick = { symbol ->
